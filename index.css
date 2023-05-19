@@ -43,7 +43,7 @@ body {
   left: 122px;
   top: 369px;
   border-radius: 6px;
-  background: url(./Images/icon5.png) no-repeat #064B87;
+  background: url(./Images/Group\ 7.png) no-repeat #064B87;
   color: white;
   background-position: 95%;
 }
@@ -359,21 +359,21 @@ input {
 }
 
 .username-input {
-  background: url("./input_icons/Path 261username.svg") no-repeat right;
+  background: url("./Images/Path 261name.png") no-repeat right;
   background-size: 10px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
 
 .email-input {
-  background: url("./input_icons/Path 263email.svg") no-repeat right;
+  background: url("./Images/Path 263email.png") no-repeat right;
   background-size: 12px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
 
 .country-input {
-  background: url("./input_icons/Path 276country.svg") no-repeat right;
+  background: url("./Images/Path 276earth.png") no-repeat right;
   background-size: 12px;
   background-position: 95%;
   background-color: #FFFFFF;
@@ -391,29 +391,29 @@ input {
 }
 
 .phone-input {
-  background: url("./input_icons/Path 274phone.svg") no-repeat right;
+  background: url("./Images/Path 274number.png") no-repeat right;
   background-size: 12px;
   background-position: 95%;
   background-color: #FFFFFF;
-  min-width: 114%;
+  min-width: 112%;
 }
 
 .company-input {
-  background: url("./input_icons/Path 279comany.svg") no-repeat right;
+  background: url("./Images/Path 279company.png") no-repeat right;
   background-size: 13px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
 
 .job-input {
-  background: url("./input_icons/Path 281job.svg") no-repeat right;
+  background: url("./Images/Path 281job.png") no-repeat right;
   background-size: 11px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
 
 .message-input {
-  background: url("./input_icons/Path 267message.svg") no-repeat right;
+  background: url("./Images/Path 267message.png") no-repeat right;
   background-size: 12px;
   background-position: 98% 10%;
   background-color: #FFFFFF;
@@ -436,7 +436,7 @@ textarea {
   color: white;
   height: 30px;
   width: 100px;
-  background: url("./input_icons/Group 7button.svg") no-repeat right, #064B87;
+  background: url("./Images/Group 7.png") no-repeat right, #064B87;
   background-position: 95%;
 }
 
