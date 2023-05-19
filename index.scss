@@ -46,18 +46,22 @@
       max-width: 571px;
       z-index: 2;
       h1 {
+		text-transform: uppercase;
         font-weight: 500;
         font-size: 42px;
         line-height: 53px;
         color: $white;
       }
       p {
+		color: $white;
         font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         max-width: 439px;
       }
       button {
+		max-width: 185px;
+		font-size: medium;
         margin-top: 20px;
         @include button(8px, 17px, 10px, 17px);
       }
@@ -101,7 +105,7 @@
     display: grid;
     place-items: center;
     .breakout-section {
-      padding: 0 25px;
+      
       position: absolute;
       @include positions($top: -90px);
       display: grid;
