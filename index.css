@@ -557,16 +557,17 @@ body {
     padding: 5px;
   }
 }
-.demo-container{
+.demo-container {
   display: flex;
-  
 }
-.demo-description{
+
+.demo-description {
   width: 35%;
   background-color: #eeeeee;
   padding: 40px 90px 30px 90px;
 }
-.demo-form{
+
+.demo-form {
   width: 75%;
   background-color: #F4F6F6;
   padding: 30px 90px 20px 80px;
@@ -577,17 +578,16 @@ body {
   color: #084D77;
   margin-bottom: 20px;
 }
+
 .demo-des-para {
   color: #717171;
   font-size: 15px;
 }
 
-.demo-form-row{
+.demo-form-row {
   display: flex;
   margin-bottom: 19px;
-  
 }
-
 
 input {
   min-width: 45%;
@@ -595,43 +595,43 @@ input {
   border: solid 1px #D9D9D9;
   font-size: 14px;
   margin-right: 19px;
- 
 }
 
 .username-input {
-  background: url("./input_icons/Path\ 261username.svg") no-repeat right;
+  background: url("./input_icons/Path 261username.svg") no-repeat right;
   background-size: 10px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
 
 .email-input {
-  background: url("./input_icons/Path\ 263email.svg") no-repeat right;
+  background: url("./input_icons/Path 263email.svg") no-repeat right;
   background-size: 12px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
 
 .country-input {
-  background: url("./input_icons/Path\ 276country.svg") no-repeat right;
+  background: url("./input_icons/Path 276country.svg") no-repeat right;
   background-size: 12px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
-.phone-input-container{
+
+.phone-input-container {
   max-width: 45%;
   min-width: 45%;
   display: flex;
 }
 
-#cn-code{
+#cn-code {
   margin-right: 0px;
   min-width: 23%;
   width: 13%;
 }
 
 .phone-input {
-  background: url("./input_icons/Path\ 274phone.svg") no-repeat right;
+  background: url("./input_icons/Path 274phone.svg") no-repeat right;
   background-size: 12px;
   background-position: 95%;
   background-color: #FFFFFF;
@@ -639,29 +639,28 @@ input {
 }
 
 .company-input {
-  background: url("./input_icons/Path\ 279comany.svg") no-repeat right;
+  background: url("./input_icons/Path 279comany.svg") no-repeat right;
   background-size: 13px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
 
 .job-input {
-  background: url("./input_icons/Path\ 281job.svg") no-repeat right;
+  background: url("./input_icons/Path 281job.svg") no-repeat right;
   background-size: 11px;
   background-position: 95%;
   background-color: #FFFFFF;
 }
 
 .message-input {
-  background: url("./input_icons/Path\ 267message.svg") no-repeat right;
+  background: url("./input_icons/Path 267message.svg") no-repeat right;
   background-size: 12px;
   background-position: 98% 10%;
   background-color: #FFFFFF;
   height: 50px;
-  
 }
 
-textarea{
+textarea {
   font-size: 16px;
   padding: 2px 5px;
   width: 92%;
@@ -669,8 +668,7 @@ textarea{
   margin-bottom: 12px;
 }
 
-
-.demo-form-submit-btn{
+.demo-form-submit-btn {
   padding: 0px 5px;
   text-align: left;
   border: 2px solid transparent;
@@ -678,127 +676,85 @@ textarea{
   color: white;
   height: 30px;
   width: 100px;
-  background:url("./input_icons/Group\ 7button.svg") no-repeat right,#064B87;
+  background: url("./input_icons/Group 7button.svg") no-repeat right, #064B87;
   background-position: 95%;
 }
 
-
-@media screen and (max-width: 1200px) {
-  .phone-input-container{
-      min-width: 45%;
-      max-width: 45%;
-      display: flex;
-  }
-  .username-input{
-      margin-right: 19px;
-  }
-  .country-input{
-      margin-right: 19px;
-  }
-  .company-input{
-      margin-right: 19px;
-  }
-  .demo-container{
-      display: flex;
-      flex-direction: column;
-  }
-  .demo-description{
-      width: 100%;
-  }
-  .demo-form{
-      width: 100%;
-      background-color: #F4F6F6;
-      padding: 30px 90px 20px 90px;
-  }
-  input {
-      margin-right: 0px;
-  }
-  
-  
-}
-
 @media only screen and (max-width: 768px) {
-  textarea{
-      width: 100%;
+  textarea {
+    width: 100%;
   }
-  .phone-input-container{
-      min-width: 100%;
+  .phone-input-container {
+    min-width: 100%;
   }
-  .username-input{
-      margin-right: 0px;
+  .username-input {
+    margin-right: 0px;
   }
-  .country-input{
-      margin-right: 0px;
+  .country-input {
+    margin-right: 0px;
   }
-  .company-input{
-      margin-right: 0px;
+  .company-input {
+    margin-right: 0px;
   }
-  .demo-des-head{
-      font-size: 1.5rem;
-      color: #084D77;
-      margin-bottom: 20px;
+  .demo-des-head {
+    font-size: 1.5rem;
+    color: #084D77;
+    margin-bottom: 20px;
   }
-  .demo-container{
-      display: flex;
-      flex-direction: column;
+  .demo-container {
+    display: flex;
+    flex-direction: column;
   }
-  
   .demo-des-para {
-      color: #717171;
-      font-size: 13px;
+    color: #717171;
+    font-size: 13px;
   }
-
-  .demo-description{
-      width: 100%;
+  .demo-description {
+    width: 100%;
   }
-  .demo-form-row{
-      display: flex;
-      flex-direction: column;
-      margin-bottom: 0px;
-      
+  .demo-form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
   }
   input {
-      min-width: 45%;
-      margin-bottom: 19px;
-      padding: 7px 6px;
-      border: solid 1px #D9D9D9;
-      font-size: 14px;
-      
+    min-width: 45%;
+    margin-bottom: 19px;
+    padding: 7px 6px;
+    border: solid 1px #D9D9D9;
+    font-size: 14px;
   }
-  #cn-code{
-      margin: 0px 0px 19px 0px;
-      min-width: 23%;
-      width: 13%;
+  #cn-code {
+    margin: 0px 0px 19px 0px;
+    min-width: 23%;
+    width: 13%;
   }
 }
-
-@media screen and (max-width:576px) {
-  .phone-input-container{
-      max-width: 100%;
+@media screen and (max-width: 576px) {
+  .phone-input-container {
+    max-width: 100%;
   }
-  .demo-description{
-      width: 100%;
-      background-color: #eeeeee;
-      padding: 30px 50px 20px 50px;
+  .demo-description {
+    width: 100%;
+    background-color: #eeeeee;
+    padding: 30px 50px 20px 50px;
   }
-  .demo-form{
-      width: 100%;
-      background-color: #F4F6F6;
-      padding: 20px 50px 10px 50px;
+  .demo-form {
+    width: 100%;
+    background-color: #F4F6F6;
+    padding: 20px 50px 10px 50px;
   }
   input {
-      min-width: 200px;
-      margin-bottom: 19px;
-      padding: 7px 6px;
-      border: solid 1px #D9D9D9;
-      font-size: 14px;
-      
+    min-width: 200px;
+    margin-bottom: 19px;
+    padding: 7px 6px;
+    border: solid 1px #D9D9D9;
+    font-size: 14px;
   }
-  .phone-input-container{
-      min-width: 200px;
+  .phone-input-container {
+    min-width: 200px;
   }
 }
-
 .footer {
   padding-top: 10px;
   height: 190px;
