@@ -215,4 +215,94 @@ body {
 }
 .mid .midRight img {
   align-items: center;
+}
+
+.bottomPart {
+  display: flex;
+  justify-content: center;
+  margin-top: 12rem;
+  flex-direction: row;
+}
+.bottomPart .bottomComp {
+  width: 75rem;
+  height: 387px;
+  background: radial-gradient(105.19% 408.75% at 95.73% -5.19%, #2377A7 0%, #003E76 100%);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottomPart .bottomComp .components {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 68.5rem;
+  border-radius: 10px;
+  top: 1226px;
+}
+.bottomPart .bottomComp .components .comp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF;
+  max-width: 240.43px;
+  max-height: 263px;
+  border-radius: 10px;
+}
+.bottomPart .bottomComp .components .comp img {
+  width: 15rem;
+  height: 12.75rem;
+}
+.bottomPart .bottomComp .components .comp p {
+  font-weight: 600;
+}
+
+.baseComp {
+  position: relative;
+  height: 6.5rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.22);
+}
+.baseComp .iconGroup {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  top: -43px;
+  width: 100%;
+}
+
+.para {
+  display: flex;
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  color: white;
+  font-size: medium;
+}
+
+.roundIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.7rem;
+  height: 3.7rem;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  margin-bottom: 1.3rem;
+}
+
+.iconComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }/*# sourceMappingURL=index.css.map */
