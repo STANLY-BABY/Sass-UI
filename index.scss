@@ -44,13 +44,90 @@ button {
 	border-radius: 6px;
 	color: white;
 }
-img{
+.vectors{
+	.img1{
+		position: absolute;
+	left: 58.9%;
+	right: -12.78%;
+	top: 0.6%;
+	bottom: 77.52%;
+}
+.img2 {
 	position: absolute;
-	width: 1385px;
-	height: 580.72px;
-	left: 154px;
-	top: 15px;	
-}} 
+	left: 58.9%;
+	right: -12.78%;
+	top: 0.6%;
+	bottom: 77.52%;
+}
+.img3 {
+	position: absolute;
+	width: 979.81px;
+	height: 229.04px;
+	left: 559.35px;
+	top: 314.57px;
+}
+.img4 {
+	position: absolute;
+	width: 1631.4px;
+	height: 478.13px;
+	left: 258px;
+	top: 278.66px;
+}
+.img5 {
+	position: absolute;
+	width: 1631.4px;
+	height: 478.13px;
+	left: 260px;
+	top: 278.66px;
+	opacity: 0.2;
+}
+.img6 {
+	position: absolute;
+	width: 179px;
+	height: 320.76px;
+	left: 701px;
+	top: 248.34px;
+}
+.img7 {
+	position: absolute;
+	width: 401.77px;
+	height: 487.72px;
+	left: 846.12px;
+	top: 108px;
+}
+.img8 {
+	position: absolute;
+	width: 401.77px;
+	height: 487.72px;
+	left: 846.12px;
+	top: 121px;
+}
+.img9 {
+	position: absolute;
+	width: 310px;
+	height: 293px;
+	left: 1308px;
+	top: 284px;
+}
+.img10 {
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	left: 1284px;
+	top: 279px;
+	transform: matrix(0, -1, -1, 0, 0, 0);
+}
+.img11 {
+	position: absolute;
+	width: 395px;
+	height: 123.73px;
+	left: 897px;
+	top: 267px;
+	transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+}
+
+} 
 
 	.topComponents {
 		box-sizing: border-box;
