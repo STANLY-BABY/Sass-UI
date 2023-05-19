@@ -147,15 +147,23 @@ button {
 		border-radius: 10px;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		.icon{
-border-radius: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		border-radius: 100%;
 		background-color: #2B98F7;
 		width: 60px;
 		height: 60px;
 	}
 
 		.blueComp {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			width: 22rem;
+			height: 100%;
 			background-color: #064B87;
 		}
 	} 
